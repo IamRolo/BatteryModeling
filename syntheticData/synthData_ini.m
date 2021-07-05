@@ -11,7 +11,7 @@ load('synthData.mat');
 load('synthDataIon.mat');
 
 % Battery capacity
-Capacity = 31; % Ampere*hours
+Capacity = 4; % Ampere*hours
 SOC_LUT = (0.1:.1:1)';
 Qe_init = 0; % Ampere*hours
 SOC0 = (Capacity-Qe_init)/Capacity;
